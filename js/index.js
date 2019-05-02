@@ -105,3 +105,10 @@ bottomText.innerText = siteContent['main-content']['services-h4'];
 let bottomTextP = document.getElementsByTagName('p')[2];
 bottomTextP.innerText = siteContent['main-content']['services-content'];
 
+//Product section
+
+let bottomTextProduct = document.getElementsByTagName('h4')[3];
+bottomTextProduct.innerText = siteContent['main-content']['product-h4'];
+
+let bottomTextProductP = document.getElementsByTagName('p')[3];
+bottomTextProductP.innerText = siteContent['main-content']['product-content'];
