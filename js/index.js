@@ -140,4 +140,20 @@ contactEmail.innerText = siteContent['contact']['email'];
 let copyRight = document.getElementsByTagName('p')[8];
 copyRight.innerText = siteContent['footer']['copyright'];
 
+//few more items to add
+
+let nav = document.querySelector('nav');
+
+let team = document.createElement('0');
+team.innerText = "Our Team";
+team.style.color = "green";
+team.setAttribute("href" , "#")
+nav.appendChild(team);
+
+let lambdaSchool = document.createElement('a');
+lambdaSchool.innerText = "Lambda School";
+lambdaSchool.style.color = "green";
+lambdaSchool.setAttribute("href", "#")
+nav.prepend(lambdaSchool);
+
 
