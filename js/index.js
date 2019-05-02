@@ -90,10 +90,18 @@ mainFeaturesP.innerText = siteContent['main-content']['features-content'];
 
 //About section
 
-// let mainAbout = document.getElementsByTagName('h4')[1];
-// mainAbout.innerText = sitecontent['main-content']['about-h4'];
-// let mainAboutP = document.getElementsByTagName('p')[1];
-// mainAboutP.innerText = siteContent['main-content']['about-content'];
-// let featureImg = document.getElementsByTagName('img')[2];
-// featureImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+let mainAbout = document.getElementsByTagName('h4')[1];
+mainAbout.innerText = sitecontent['main-content']['about-h4'];
+let mainAboutP = document.getElementsByTagName('p')[1];
+mainAboutP.innerText = siteContent['main-content']['about-content'];
+let featureImg = document.getElementsByTagName('img')[2];
+featureImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+//Services section
+
+let bottomText = document.getElementsByTagName('h4')[2];
+bottomText.innerText = siteContent['main-content']['services-h4'];
+
+let bottomTextP = document.getElementsByTagName('p')[2];
+bottomTextP.innerText = siteContent['main-content']['services-content'];
 
