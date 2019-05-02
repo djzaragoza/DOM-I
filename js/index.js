@@ -80,4 +80,13 @@ let ctaImg = document.getElementsByTagName('img')[1];
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 
+//main content
+
+let mainFeatures = document.getElementsByTagName('h4')[0];
+mainFeatures.innerText = siteContent['main-content']['features-h4'];
+
+let mainFeaturesP = document.getElementsByTagName('p')[0];
+mainFeaturesP.innerText = siteContent['main-content']['features-content'];
+
+//About section
 
