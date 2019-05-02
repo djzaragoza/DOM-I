@@ -112,3 +112,29 @@ bottomTextProduct.innerText = siteContent['main-content']['product-h4'];
 
 let bottomTextProductP = document.getElementsByTagName('p')[3];
 bottomTextProductP.innerText = siteContent['main-content']['product-content'];
+
+//Vision section
+
+let bottomTextVision = document.getElementsByTagName('h4')[4];
+bottomTextVision.innerText = siteContent['main-content']['vision-h4'];
+
+let bottomVisionP = document.getElementsByTagName('p')[4];
+bottomTextVisionP.innerText = siteContent['main-content']['vision-content'];
+
+//Contact section
+
+let contactUs = document.getElementsByTagName('h4')[5];
+contactUs.innerText = siteContent['contact']['contact-h4'];
+
+let contactAddress = document.getElementsByTagName('p')[5];
+contactAddress.innerText = siteContent['contact']['address'];
+
+let contactPhone = document.getElementsByTagName('p')[6];
+contactPhone.innerText = siteContent['contact']['phone'];
+
+let contactEmail = document.getElementsByTagName('p')[7];
+contactEmail.innerText = siteContent['contact']['email'];
+
+// Footer section
+
+
