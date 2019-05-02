@@ -137,4 +137,7 @@ contactEmail.innerText = siteContent['contact']['email'];
 
 // Footer section
 
+let copyRight = document.getElementsByTagName('p')[8];
+copyRight.innerText = siteContent['footer']['copyright'];
+
 
