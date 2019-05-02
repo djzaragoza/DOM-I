@@ -41,7 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-//Nav Bar 
+//Navigation Bar
 
 let services = document.getElementsByTagName('a')[0];
 services.innerText = siteContent['nav']['nav-item-1']
@@ -66,5 +66,18 @@ about.style.color = 'green';
 let contact = document.getElementsByTagName('a')[5];
 contact.innerText = siteContent['nav']['nav-item-6'];
 contact.style.color = 'green';
+
+
+//CTA
+
+let centerData = document.getElementsByTagName('h1')[0];
+centerData.innerText = siteContent['cta']['h1'];
+
+let ctaBtn = document.getElementsByTagName('button')[0];
+ctaBtn.innerText = siteContent['cta']['button'];
+
+let ctaImg = document.getElementsByTagName('img')[1];
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
+
 
 
